@@ -38,6 +38,14 @@
 	  <% end %>
 		
 	</div>
+	<div class ="clear"></div>
+	<h1>Photos</h1>
+
+	<% @place.photos.each do |photo| %>
+		<%= image_tag photo.picture %>
+		<%= photo.caption %>	
+	<% end %>
+
 </div>
 
 <div class="clear"></div>
@@ -74,8 +82,7 @@
 	  Add a comment
 	</button>
 
-	<div class="clear"></div>
-	
+<div class="clear"></div>	
 	<% @place.comments.each do |comment| %>
 		<div class="col-xs-12 col-sm-6">
 			<blockquote>
@@ -88,6 +95,15 @@
 		</div>
 	<% end %>
 </div>
+
+<div class ="clear"></div>
+<%= simple_form_for @photo, :url => place_photos_path(@place) do |f| %>
+	<%= f.input :picture %>
+	<%= f.input :caption %>
+	<%= f.submit "Add Photo", :class => 'btn btn-primary' %>
+<% end %>
+
+
 
 
 
