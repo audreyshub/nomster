@@ -19,7 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
 	background: url('/assets/crossword.png');
-	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 .navbar.navbar-inverse {
@@ -30,17 +31,18 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-	color: #49B334;
+	color: #ED0520;
 	font-family: 'gooddogregular', sans-serif;
 	font-size:28px;
-	letter-spacing: 1.2px;
+	letter-spacing: 1px;
 }
 
 .will_pagination {
 	font-size:15px;
-	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-	
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;	
+
 }
+
 
 abbr[title="required"] {
 	display: none;
@@ -86,8 +88,8 @@ blockquote p {
 }
 
 .carousel-caption {
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 60px;
+	font-family: 'gooddogregular', sans-serif;
+	font-size: 50px;
 	font-weight:100;
 	text-shadow: rgba(0,0,0,0.95) 2px 2px;
 	background-color: rgba(0,0,0,0.5);
@@ -99,3 +101,12 @@ blockquote p {
 .carousel {
 	box-shadow: 0px 3px 8px #2a2a2a;
 }
+
+h1 a:link {
+	color: #252525;
+}
+
+h1 a:visited {
+	color: #252525;
+}
+
