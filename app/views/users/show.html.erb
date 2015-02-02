@@ -1,5 +1,5 @@
 <div class="booyah-box">
-	<div class="col-xs-12">
+	
 		<div class="text-center">
 			<%= image_tag 'user.png' %>
 			<h2><%= @user.email %></h2>	
@@ -7,7 +7,7 @@
 			<h4><%= @user.comments.count %> total comments</h4>
 			<h4><%= @user.comments.where(:rating => '5_stars').count %> total 5 star reviews</h4>
 		</div>	
-	</div>
+	
 	
 	
 	<div class="clear"></div>
